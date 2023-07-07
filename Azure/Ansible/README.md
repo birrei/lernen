@@ -1,16 +1,12 @@
 # Ansible 
-## Aufgabe:
-
+## Aufgabe: Konfigurieren von Ansible mithilfe von Azure Cloud Shell
+Link: 
 [Konfigurieren von Ansible mithilfe von Azure Cloud Shell](https://learn.microsoft.com/de-de/azure/developer/ansible/getting-started-cloud-shell?tabs=ansible)  
 
-
 Legen Sie die AZURE_SUBSCRIPTION_ID wie folgt fest, indem Sie Ihre Azure-Abonnement-ID verwenden:  
-
 ```
 az account list
 ```
-
-Warum: Um zu erreichen, dass für die nachfolgenden Scripte das richtige Abo herangzogen wird. 
 
 Testen der Ansible-Installation 
 https://learn.microsoft.com/de-de/azure/developer/ansible/getting-started-cloud-shell?tabs=ansible
@@ -20,7 +16,6 @@ erzeuge  datei create_rg.yml
 ```
 code create_rg.yml
 ```
-
 ```
 ---
 - hosts: localhost
