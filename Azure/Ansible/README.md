@@ -6,6 +6,8 @@ Link:
 Legen Sie die AZURE_SUBSCRIPTION_ID wie folgt fest, indem Sie Ihre Azure-Abonnement-ID verwenden:  
 ```
 az account list
+..
+export AZURE_SUBSCRIPTION_ID=<your-subscription-id>
 ```
 
 Testen der Ansible-Installation 
