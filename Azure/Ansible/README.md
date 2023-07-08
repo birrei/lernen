@@ -28,6 +28,8 @@ Inhalt:
     - debug:
         var: rg
 ```
+Hinweis: Aufgrund der Variablen register und des Abschnitts debug des Playbooks werden die Ergebnisse angezeigt, wenn der Befehl abgeschlossen ist.
+
 create_rg.yml ausführen: 
 
 ```
