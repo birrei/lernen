@@ -63,6 +63,17 @@ PLAY RECAP *********************************************************************
 localhost                  : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0  
 ```
 
+Ressourc group wieder löschen, Löschung prüfen 
+```
+birgit@Azure:~$ az group delete --name "rg_test_bir_20230702"
+Are you sure you want to perform this operation? (y/n): y
+
+birgit@Azure:~$ az group show --name "rg_test_bir_20230702"
+(ResourceGroupNotFound) Resource group 'rg_test_bir_20230702' could not be found.
+Code: ResourceGroupNotFound
+Message: Resource group 'rg_test_bir_20230702' could not be found.
+birgit@Azure:~$ 
+```
 ----
 Links:  
 [Matrix der Ansible-Module und -Versionen](https://learn.microsoft.com/de-de/azure/developer/ansible/module-version-matrix)
