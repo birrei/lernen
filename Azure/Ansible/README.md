@@ -1,5 +1,5 @@
-# Ansible 
-## Aufgabe: Konfigurieren von Ansible mithilfe von Azure Cloud Shell
+# Übungen 
+## Azure Ressourcegroup per Ansible Playbook anlegen  
 Link: 
 [Konfigurieren von Ansible mithilfe von Azure Cloud Shell](https://learn.microsoft.com/de-de/azure/developer/ansible/getting-started-cloud-shell?tabs=ansible)  
 
