@@ -1,5 +1,4 @@
-# Übungen 
-## Azure Ressourcegroup per Ansible Playbook anlegen  
+# Übung: Ressourcegroup per Ansible Playbook anlegen 
 Link: 
 [Konfigurieren von Ansible mithilfe von Azure Cloud Shell](https://learn.microsoft.com/de-de/azure/developer/ansible/getting-started-cloud-shell?tabs=ansible)  
 
@@ -79,3 +78,4 @@ birgit@Azure:~$
 ----
 Links:  
 [Matrix der Ansible-Module und -Versionen](https://learn.microsoft.com/de-de/azure/developer/ansible/module-version-matrix)
+[azure_rm_resourcegroup_module](https://docs.ansible.com/ansible/latest/collections/azure/azcollection/azure_rm_resourcegroup_module.htm)
