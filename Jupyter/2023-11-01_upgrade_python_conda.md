@@ -94,7 +94,13 @@ conda 23.7.4
 python --version  
 Python 3.11.5
 ```
+
 OK. 
+
+Nachträge: 
+
+Beim öffnen von Jupyter Notebook wird nun oben dieser Hinweis angezeigt:   
+"UPDATE Read [https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html](the migration plan) to Notebook 7 to learn about the new features and the actions to take if you are using extensions - Please note that updating to Notebook 7 might break some of your extensions." 
 
 
 
